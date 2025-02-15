@@ -3636,7 +3636,7 @@ local imgui_settings = imgui.OnFrame(
 						imgui.TextColoredRGB('Команды скрипта:')
 						imgui.SetCursorPosX(20)
 						imgui.BeginGroup()
-							imgui.TextColoredRGB('/phpanel - Главное меню скрипта ОБНОВААА')
+							imgui.TextColoredRGB('/phpanel - Главное меню скрипта УРААА')
 							imgui.TextColoredRGB('/phchat - Очистить собственный чат')
 							--imgui.TextColoredRGB('/phlect - Меню лекций скрипта')
 							--imgui.TextColoredRGB('/phdep - Меню департамента скрипта')
@@ -7749,8 +7749,8 @@ function checkUpdates(json_url, show_notify)
 					local updateversion = (configuration.main_settings.getbetaupd and info.beta_upd) and info.beta_version or info.version
 					f:close()
 					os.remove(json)
-					if tonumber(updateversion) > thisScript().version then
-						addNotify('Обнаружено обновление на\nверсию {MC}'..updateversion..'{WC}. Подробности:\n{MC}/phupd', 5)
+					if updateversion ~= thisScript().version then
+						addNotify('Обнаружено обновление на\nверсию {MC}'..updateversion..'{WC}. Подробности:\n{MC}/ashupd', 5)
 					else
 						if show_notify then
 							addNotify('Обновлений не обнаружено!', 5)
