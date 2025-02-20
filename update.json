@@ -1,9 +1,9 @@
 {
     "file":"https://raw.githubusercontent.com/Riyso/AVOQ-Assistant/refs/heads/main/AVOQAssistant.luac",
-    "version":"2.5",
-    "change_log":"Исправлены ошибки, добавлены новые функции.",
+    "version":"2.6",
+    "change_log":"Мелкие фиксы, испраления, а также улучшения и добавления.",
     "beta_upd":false,
-    "beta_file":"https://raw.githubusercontent.com/Just-Mini/ASHelper/main/AS%20Helper%20beta.lua",
+    "beta_file":"-",
     "beta_version":"3.1 beta",
-    "beta_changelog":"Добавлен встроенный чекер сотрудников на экране\nДобавлен быстрый /expel на ПКМ + G (по умолчанию)\nДобавлена функция отображения ранга сотрудника в рации и на груди\nИзменены/добавлены некоторые отыгровки\nИзменена система PNG файлов"
+    "beta_changelog":"-"
 }
